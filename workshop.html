@@ -26,7 +26,7 @@
     .hero-lead{max-width:580px;margin:23px 0 26px;color:#d9c9b8;font-size:17px;line-height:1.8}
     .button-row{display:flex;flex-wrap:wrap;gap:11px}.button{position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:62px;padding:0 25px;overflow:hidden;border:1px solid rgba(245,209,173,.62);border-radius:14px;font-size:15px;font-weight:800;letter-spacing:.2px;transition:transform .25s,box-shadow .25s,border-color .25s}.button:before{content:"";position:absolute;z-index:0;inset:0;background:linear-gradient(110deg,rgba(218,162,112,.92),rgba(174,116,76,.89) 48%,rgba(220,176,135,.94));transition:filter .25s}.button:after{content:"";position:absolute;z-index:1;top:-70%;left:-55%;width:46%;height:240%;transform:rotate(22deg);background:linear-gradient(90deg,transparent,rgba(255,255,255,.76),transparent);pointer-events:none;animation:shine 2.4s ease-in-out infinite}.button>span{position:relative;z-index:2}.button:hover{transform:translateY(-3px);border-color:rgba(255,231,208,.8);box-shadow:0 9px 30px rgba(196,133,87,.31),0 0 22px rgba(209,160,116,.19)}.button:hover:before{filter:brightness(1.12)}.button-primary{color:#241912;box-shadow:0 6px 24px rgba(196,133,87,.22)}.button-secondary{background:rgba(255,245,232,.06);color:#f1e4d5;backdrop-filter:blur(8px)}.button-secondary:before{background:linear-gradient(120deg,rgba(255,255,255,.08),rgba(255,255,255,.015))}.button-secondary:after{animation-delay:-1.4s}.button-arrow{font-size:19px}.hero-signup{width:min(100%,470px);min-height:92px;padding:14px 24px;flex-direction:column;gap:5px;border-radius:999px;font-size:18px;letter-spacing:.5px;text-align:center;background:linear-gradient(110deg,#a96d4d,#d3a477 48%,#9d6848);box-shadow:0 12px 38px rgba(191,126,80,.38),0 0 35px rgba(209,160,116,.25),inset 0 1px 0 rgba(255,255,255,.32)}.hero-signup:before{background:linear-gradient(110deg,rgba(153,92,60,.78),rgba(223,183,142,.96) 48%,rgba(153,92,60,.82))}.hero-signup:after{width:38%;background:linear-gradient(90deg,transparent,rgba(255,252,244,.92),transparent);animation:shine 2.2s ease-in-out infinite}.hero-signup-title{font:800 18px Manrope,sans-serif;letter-spacing:.6px;text-transform:uppercase}.hero-signup-subtitle{font:600 12px "DM Sans",sans-serif;letter-spacing:.5px;opacity:.91}.registration-button{width:100%;min-height:78px;border-radius:17px;font-size:20px;box-shadow:0 10px 35px rgba(196,133,87,.34),0 0 28px rgba(209,160,116,.18)}.closing-signup{min-height:72px;padding:0 30px;font-size:18px}
     .video-card{width:min(100%,290px);justify-self:end;position:relative;aspect-ratio:9/16;display:grid;place-items:center;overflow:hidden;border:1px solid rgba(239,201,164,.45);border-radius:24px;background:radial-gradient(ellipse at 50% 40%,rgba(194,139,96,.49),transparent 49%),linear-gradient(155deg,rgba(101,69,49,.87),rgba(31,24,20,.98));box-shadow:0 22px 58px rgba(0,0,0,.4),inset 0 0 50px rgba(232,189,146,.12)}
-    .workshop-video,.workshop-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:inherit;background:#171412;z-index:3}.workshop-video[hidden],.workshop-image[hidden],.video-placeholder[hidden]{display:none!important}.video-placeholder{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden}
+    .workshop-video,.workshop-image,.workshop-youtube{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0;border-radius:inherit;background:#171412;z-index:3}.workshop-video[hidden],.workshop-image[hidden],.workshop-youtube[hidden],.video-placeholder[hidden]{display:none!important}.video-placeholder{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden}
     .video-card:before,.video-card:after{content:"";position:absolute;width:82%;aspect-ratio:1;border:1px solid rgba(239,201,164,.21);border-radius:50%;animation:pulse 4.8s ease-in-out infinite alternate}.video-card:after{width:64%;animation-delay:-2.3s}.video-center{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;padding:22px;text-align:center}
     .play{width:68px;height:68px;display:grid;place-items:center;padding-left:5px;margin-bottom:18px;border:1px solid rgba(255,242,225,.63);border-radius:50%;background:linear-gradient(145deg,rgba(255,235,209,.22),rgba(255,235,209,.07));box-shadow:0 0 35px rgba(225,177,128,.26),inset 0 1px 0 rgba(255,255,255,.2);color:#fae5ce;font-size:22px;animation:play-glow 2.8s ease-in-out infinite alternate}.video-center strong{font:700 15px Manrope,sans-serif}.video-center small{max-width:200px;margin-top:8px;color:#d5c0aa;font-size:13px;line-height:1.55}.video-label{position:absolute;left:16px;right:16px;bottom:15px;z-index:1;display:flex;justify-content:space-between;gap:10px;color:#dac3aa;font-size:9px;font-weight:700;letter-spacing:1.5px}
     .marquee{position:relative;overflow:hidden;margin:40px 0 0;padding:15px 0;border-top:1px solid rgba(225,184,142,.23);border-bottom:1px solid rgba(225,184,142,.23);background:linear-gradient(90deg,rgba(190,130,84,.055),rgba(255,255,255,.025),rgba(190,130,84,.055));mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}.marquee:hover .marquee-track{animation-play-state:paused}.marquee-track{display:flex;width:max-content;animation:marquee-pass 34s linear infinite;will-change:transform}.marquee-group{display:flex;align-items:center;gap:23px;padding-right:23px;white-space:nowrap;color:#d8c1a8;font:700 12px Manrope,sans-serif;letter-spacing:2.8px}.marquee-group i{color:#d7a77a;font-size:14px;font-style:normal;text-shadow:0 0 15px rgba(216,167,122,.52)}
@@ -143,8 +143,8 @@
         <p class="signup-perks">Coffee break incluso · Kit especial para as 20 primeiras inscrições.</p>
       </div>
       <!-- Quadro para vídeo ou imagem vertical de apresentação. -->
-      <!-- Para trocar a mídia, edite VIDEO_SRC ou IMAGE_SRC no bloco MÍDIA DO WORKSHOP abaixo. -->
-      <div class="video-card" aria-label="Mídia de apresentação do Workshop Vox Lab"><video class="workshop-video" controls playsinline preload="metadata" hidden></video><img class="workshop-image" alt="Imagem de apresentação do Workshop Vox Lab" hidden><div class="video-placeholder"><div class="video-center"><span class="play" aria-hidden="true">▶</span><strong>Apresentação do workshop</strong><small>Defina um caminho de vídeo ou imagem no código.</small></div><div class="video-label"><span>VOX LAB</span><span>9:16 · VERTICAL</span></div></div></div>
+      <!-- O vídeo do YouTube começa automaticamente sem som; os controles permitem ativar o áudio. -->
+      <div class="video-card" aria-label="Vídeo de apresentação do Workshop Vox Lab"><iframe class="workshop-youtube" title="Vídeo de apresentação do Workshop Vox Lab" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" hidden></iframe><img class="workshop-image" alt="Imagem de apresentação do Workshop Vox Lab" hidden><div class="video-placeholder"><div class="video-center"><span class="play" aria-hidden="true">▶</span><strong>Vídeo de apresentação</strong><small>O vídeo será exibido aqui.</small></div><div class="video-label"><span>VOX LAB</span><span>9:16 · VERTICAL</span></div></div></div>
     </section>
 
     <div class="marquee" aria-hidden="true">
@@ -199,28 +199,19 @@
   <script>
     document.getElementById("year").textContent=new Date().getFullYear();
 
-    // MÍDIA DO WORKSHOP: use um caminho relativo à pasta deste HTML.
-    // Para vídeo: preencha VIDEO_SRC e deixe IMAGE_SRC vazio.
-    // Para imagem: deixe VIDEO_SRC vazio e preencha IMAGE_SRC.
-    // Exemplos: "./video-workshop-vox-lab.mp4" ou "./IMG_3205.PNG".
-    const VIDEO_SRC = "";
-    const IMAGE_SRC = "./IMG_3205.PNG";
-    const workshopVideo=document.querySelector(".workshop-video");
+    // Vídeo do YouTube: autoplay começa sem som, em loop, com controles disponíveis.
+    const YOUTUBE_ID = "W7ZE_Ibhu94";
+    const IMAGE_SRC = "";
+    const workshopYoutube=document.querySelector(".workshop-youtube");
     const workshopImage=document.querySelector(".workshop-image");
     const videoPlaceholder=document.querySelector(".video-placeholder");
-    const showPlaceholder=()=>{workshopVideo.hidden=true;workshopImage.hidden=true;videoPlaceholder.hidden=false;};
-    if (IMAGE_SRC.trim()) {
-      workshopImage.addEventListener("load",()=>{workshopImage.hidden=false;workshopVideo.hidden=true;videoPlaceholder.hidden=true;});
-      workshopImage.addEventListener("error",showPlaceholder);
+    if (YOUTUBE_ID.trim()) {
+      workshopYoutube.addEventListener("load",()=>{workshopYoutube.hidden=false;workshopImage.hidden=true;videoPlaceholder.hidden=true;});
+      workshopYoutube.src=`https://www.youtube-nocookie.com/embed/${YOUTUBE_ID}?autoplay=1&mute=1&loop=1&playlist=${YOUTUBE_ID}&playsinline=1&controls=1&rel=0`;
+    } else if (IMAGE_SRC.trim()) {
+      workshopImage.addEventListener("load",()=>{workshopImage.hidden=false;workshopYoutube.hidden=true;videoPlaceholder.hidden=true;});
+      workshopImage.addEventListener("error",()=>{workshopImage.hidden=true;videoPlaceholder.hidden=false;});
       workshopImage.src=IMAGE_SRC;
-    } else if (VIDEO_SRC.trim()) {
-      workshopVideo.addEventListener("loadedmetadata",()=>{workshopVideo.hidden=false;workshopImage.hidden=true;videoPlaceholder.hidden=true;});
-      workshopVideo.addEventListener("error",showPlaceholder);
-      const source=document.createElement("source");
-      source.src=VIDEO_SRC;
-      source.type="video/mp4";
-      workshopVideo.append(source);
-      workshopVideo.load();
     }
     const artItems=document.querySelectorAll(".float-art");let artFrame=0;function moveDecorations(){if(artFrame)return;artFrame=requestAnimationFrame(()=>{const scrollY=window.scrollY;artItems.forEach(item=>{const speed=Number(item.dataset.speed)||.1;const offset=Math.max(-100,Math.min(100,-scrollY*speed));item.querySelector(".parallax-art").style.transform=`translate3d(0,${offset}px,0)`;});artFrame=0;});}window.addEventListener("scroll",moveDecorations,{passive:true});moveDecorations();
   </script>
