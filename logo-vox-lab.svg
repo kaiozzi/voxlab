@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" role="img" aria-labelledby="title description">
+  <title id="title">VOX LAB</title>
+  <desc id="description">Imersão em técnica e inteligência vocal</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 34 104 164 180 34" stroke="#c5a27c" stroke-width="10"/>
+    <circle cx="264" cy="99" r="73" stroke="#c5a27c" stroke-width="10"/>
+    <circle cx="264" cy="99" r="58" stroke="#c5a27c" stroke-opacity=".32" stroke-width="3"/>
+    <path d="M198 99h12m8-9v18m10-25v32m11-42v52m12-64v76m13-87v98m13-77v56m12-48v40m12-30v20m11-13v6m8 0h12" stroke="#c5a27c" stroke-width="8"/>
+    <path d="m355 34 150 130M505 34 355 164" stroke="#c5a27c" stroke-width="10"/>
+    <path d="M573 38v126h106" stroke="#f5ede2" stroke-width="10"/>
+    <path d="m684 164 72-126 72 126" stroke="#f5ede2" stroke-width="10"/>
+    <path d="M849 38h52c52 0 52 72 0 72h-52m0 0h58c56 0 56 54 0 54h-58V38" stroke="#f5ede2" stroke-width="10"/>
+    <path d="M427 231h146" stroke="#c5a27c" stroke-width="5"/>
+  </g>
+  <text x="500" y="204" fill="#f5ede2" font-family="Manrope,Montserrat,Arial,sans-serif" font-size="20" font-weight="500" letter-spacing="8" text-anchor="middle">IMERSÃO EM TÉCNICA E INTELIGÊNCIA VOCAL</text>
+</svg>
