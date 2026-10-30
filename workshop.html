@@ -121,9 +121,8 @@
     .closing-action .closing-signup{width:100%;min-height:78px;justify-content:center;text-align:center}
   </style>
   <style id="text-presentation-arrows">
-    .link-arrow,.theme-arrow,.button-arrow,.signal-arrow{position:relative;display:inline-block;flex:0 0 18px;width:18px;height:18px;font-size:0;font-style:normal;color:currentColor}
-    .link-arrow::before,.theme-arrow::before,.button-arrow::before,.signal-arrow::before{content:"";position:absolute;top:2px;right:2px;width:8px;height:8px;border-top:2px solid currentColor;border-right:2px solid currentColor}
-    .link-arrow::after,.theme-arrow::after,.button-arrow::after,.signal-arrow::after{content:"";position:absolute;top:8px;left:1px;width:15px;border-top:2px solid currentColor;transform:rotate(-45deg);transform-origin:right center}
+    .link-arrow,.theme-arrow,.button-arrow,.signal-arrow{display:inline-flex;align-items:center;justify-content:center;flex:0 0 18px;width:18px;height:18px;font-size:0;font-style:normal;color:currentColor}
+    .link-arrow svg,.theme-arrow svg,.button-arrow svg,.signal-arrow svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
   </style>
 </head>
 <body>
@@ -152,18 +151,18 @@
       <div class="marquee-track"><div class="marquee-group"><span>VOX LAB</span><i>✦</i><span>VOZ</span><i>✦</i><span>RESPIRAÇÃO</span><i>✦</i><span>AFINAÇÃO</span><i>✦</i><span>REGISTROS</span><i>✦</i><span>EXPRESSÃO</span><i>✦</i></div><div class="marquee-group" aria-hidden="true"><span>VOX LAB</span><i>✦</i><span>VOZ</span><i>✦</i><span>RESPIRAÇÃO</span><i>✦</i><span>AFINAÇÃO</span><i>✦</i><span>REGISTROS</span><i>✦</i><span>EXPRESSÃO</span><i>✦</i></div></div>
     </div>
     <section class="section" aria-labelledby="connection-title">
-      <div class="connection"><div><p class="eyebrow">Sua voz em perspectiva</p><h2 id="connection-title">Sua voz não é o problema.<em>Vamos entender os ajustes.</em></h2><p class="connection-copy">Respiração, afinação, registros e interpretação se conectam. No Vox Lab, esses fundamentos viram temas de estudo e prática.</p></div><div class="signals"><div class="signal"><i>〰</i><span>Respiração e controle do ar</span></div><div class="signal"><i>♪</i><span>Afinação na prática</span></div><div class="signal"><i class="signal-arrow" aria-hidden="true"></i><span>Agudos, graves e registros</span></div><div class="signal"><i>◉</i><span>Interpretação e microfone</span></div></div></div>
+      <div class="connection"><div><p class="eyebrow">Sua voz em perspectiva</p><h2 id="connection-title">Sua voz não é o problema.<em>Vamos entender os ajustes.</em></h2><p class="connection-copy">Respiração, afinação, registros e interpretação se conectam. No Vox Lab, esses fundamentos viram temas de estudo e prática.</p></div><div class="signals"><div class="signal"><i>〰</i><span>Respiração e controle do ar</span></div><div class="signal"><i>♪</i><span>Afinação na prática</span></div><div class="signal"><i class="signal-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></i><span>Agudos, graves e registros</span></div><div class="signal"><i>◉</i><span>Interpretação e microfone</span></div></div></div>
     </section>
 
     <section class="section" id="temas" aria-labelledby="themes-title">
       <div class="section-head"><div><p class="eyebrow">Programa do workshop</p><h2 id="themes-title">O que vamos explorar</h2></div><p class="section-intro">Uma sequência de temas para observar a voz por diferentes ângulos e colocar técnica em prática.</p></div>
       <div class="themes">
-        <article class="theme" style="--delay:.02s"><span class="number">01</span><div><h3>Sua voz não é o problema</h3><p>Comece entendendo a voz e os ajustes que entram no canto.</p></div><span class="theme-arrow" aria-hidden="true"></span></article>
-        <article class="theme" style="--delay:.07s"><span class="number">02</span><div><h3>Respiração e controle do ar</h3><p>Explore a relação entre o ar, as frases e a sustentação vocal.</p></div><span class="theme-arrow" aria-hidden="true"></span></article>
-        <article class="theme" style="--delay:.12s"><span class="number">03</span><div><h3>Afinação na prática</h3><p>Trabalhe percepção e precisão por meio da prática vocal.</p></div><span class="theme-arrow" aria-hidden="true"></span></article>
-        <article class="theme" style="--delay:.22s"><span class="number">04</span><div><h3>Agudos, graves e registro</h3><p>Conheça as diferentes regiões e possibilidades da voz.</p></div><span class="theme-arrow" aria-hidden="true"></span></article>
-        <article class="theme" style="--delay:.27s"><span class="number">05</span><div><h3>Interpretação e microfone</h3><p>Explore intenção, expressão e o uso do microfone ao cantar.</p></div><span class="theme-arrow" aria-hidden="true"></span></article>
-        <article class="theme" style="--delay:.32s"><span class="number">06</span><div><h3>Clínica vocal ao vivo</h3><p>Observe a voz em prática e acompanhe orientações ao vivo.</p></div><span class="theme-arrow" aria-hidden="true"></span></article>
+        <article class="theme" style="--delay:.02s"><span class="number">01</span><div><h3>Sua voz não é o problema</h3><p>Comece entendendo a voz e os ajustes que entram no canto.</p></div><span class="theme-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></article>
+        <article class="theme" style="--delay:.07s"><span class="number">02</span><div><h3>Respiração e controle do ar</h3><p>Explore a relação entre o ar, as frases e a sustentação vocal.</p></div><span class="theme-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></article>
+        <article class="theme" style="--delay:.12s"><span class="number">03</span><div><h3>Afinação na prática</h3><p>Trabalhe percepção e precisão por meio da prática vocal.</p></div><span class="theme-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></article>
+        <article class="theme" style="--delay:.22s"><span class="number">04</span><div><h3>Agudos, graves e registro</h3><p>Conheça as diferentes regiões e possibilidades da voz.</p></div><span class="theme-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></article>
+        <article class="theme" style="--delay:.27s"><span class="number">05</span><div><h3>Interpretação e microfone</h3><p>Explore intenção, expressão e o uso do microfone ao cantar.</p></div><span class="theme-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></article>
+        <article class="theme" style="--delay:.32s"><span class="number">06</span><div><h3>Clínica vocal ao vivo</h3><p>Observe a voz em prática e acompanhe orientações ao vivo.</p></div><span class="theme-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></article>
       </div>
     </section>
 
@@ -190,12 +189,12 @@
         <div class="registration-info"><p class="eyebrow">Sua vaga no Vox Lab</p><h2 id="registration-title">Técnica vocal, coffee break e boas trocas.</h2><p class="registration-copy">Uma pausa para recarregar as energias e compartilhar a experiência com outros participantes.</p><div class="registration-facts"><span>14 de novembro de 2026</span><span>9h às 12h</span><span>Workshop presencial</span></div></div>
         <div class="registration-action"><p class="registration-price-label">INGRESSO DO WORKSHOP</p><p class="registration-price">R$ 50,00</p>
           <!-- O botão redireciona para a página do evento e conclusão do pagamento. -->
-          <a class="button button-primary registration-button" href="https://www.e-inscricao.com/event/vox-lab---richardson-dantas/evento-rascunho-139787"><span>Fazer inscrição</span><span class="button-arrow" aria-hidden="true"></span></a>
+          <a class="button button-primary registration-button" href="https://www.e-inscricao.com/event/vox-lab---richardson-dantas/evento-rascunho-139787"><span>Fazer inscrição</span><span class="button-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></a>
           <small class="signup-perks">Coffee break incluso · Kit especial para as 20 primeiras inscrições.</small>
         </div>
       </div>
     </section>
-    <section class="closing"><div class="closing-copy"><p class="eyebrow">Workshop Vox Lab</p><h2>Não é mágica. É ajuste!</h2></div><div class="closing-action"><a class="button button-primary closing-signup" href="https://www.e-inscricao.com/event/vox-lab---richardson-dantas/evento-rascunho-139787"><span>Fazer inscrição</span><span class="button-arrow" aria-hidden="true"></span></a><small class="signup-perks">Coffee break incluso · Kit especial para as 20 primeiras inscrições.</small></div></section>
+    <section class="closing"><div class="closing-copy"><p class="eyebrow">Workshop Vox Lab</p><h2>Não é mágica. É ajuste!</h2></div><div class="closing-action"><a class="button button-primary closing-signup" href="https://www.e-inscricao.com/event/vox-lab---richardson-dantas/evento-rascunho-139787"><span>Fazer inscrição</span><span class="button-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></a><small class="signup-perks">Coffee break incluso · Kit especial para as 20 primeiras inscrições.</small></div></section>
     <footer><span>© <span id="year"></span> RICHARDSON DANTAS</span><span>WORKSHOP VOX LAB · TÉCNICA E INTELIGÊNCIA VOCAL</span></footer>
   </main>
   <script>

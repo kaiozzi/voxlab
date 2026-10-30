@@ -269,9 +269,8 @@
     footer{color:rgba(245,237,226,.62)}
   </style>
   <style id="text-presentation-arrow">
-    .link-arrow{display:inline-block;width:18px;height:18px;font-size:0}
-    .link-arrow::before{content:"";position:absolute;top:2px;right:2px;width:8px;height:8px;border-top:2px solid currentColor;border-right:2px solid currentColor}
-    .link-arrow::after{content:"";position:absolute;top:8px;left:1px;width:15px;border-top:2px solid currentColor;transform:rotate(-45deg);transform-origin:right center}
+    .link-arrow{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px}
+    .link-arrow svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
   </style>
 </head>
 <body>
@@ -298,7 +297,7 @@
         <a class="workshop-link" href="workshop.html" aria-label="Abrir detalhes do Workshop Vox Lab">
           <img class="workshop-brand-logo" src="./logo-vox-lab.svg" alt="Logo Vox Lab">
           <span class="link-copy"><strong>Workshop Vox Lab</strong><small>Coffee break incluso · Kit especial para as 20 primeiras inscrições.</small></span>
-          <span class="link-arrow" aria-hidden="true"></span>
+          <span class="link-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span>
         </a>
       </div>
     </section>
